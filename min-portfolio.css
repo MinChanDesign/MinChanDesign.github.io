@@ -1,0 +1,175 @@
+
+/* Index (Home) - Contact */
+.body {
+    background-color: #F1EAD8;
+}
+
+#logo-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    background-color: #EDD279 !important;
+    /* overflow: hidden;
+    position: fixed;
+    top: 0; */
+}
+
+.activeTab {
+    background-color: #F1EAD8 !important;
+}
+
+.fontJosefinSans {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.bnt-customized {
+    color: #FFFFFF;
+    background-color: #6c595b;
+}
+
+.bnt-customized:hover {
+    color: #FFFFFF !important;
+    background-color: #B1816B ;
+}
+
+.headerHome {
+    padding-bottom: 30px;
+}
+
+#funFact {
+    color: #5E656C;
+}
+
+#rowAbout {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+}
+
+#rowAboutText {
+    padding-left: 10px;
+}
+
+#btnAbout {
+    margin-top: 10px;
+}
+
+#contact {
+    background: url(resource/background-black.jpg) center;
+    opacity: 80%;
+    background-size: 100%;
+    /* padding-top: 150px;
+    padding-bottom: 150px; */
+    padding-top: 10%;
+    padding-bottom: 10%;
+    color: #FFFFFF;
+}
+
+.email {
+    display: inline;
+}
+
+#myEmail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.copyright {
+    display: inline;
+    padding-left: 50px;
+}
+
+#copyRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5E656C;
+}
+
+
+.linkedin {
+    color: #FFFFFF !important;
+}
+
+.linkedin:hover {
+    color: #EDD279;
+}
+
+.linkedin:visited {
+    color: #F1EAD8;
+}
+
+
+.footer {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+
+/* About */
+.intro {
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+}
+
+#blockAbout {
+    display: flex;
+    /* align-items: center; */
+    flex-wrap:wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#padding {
+    padding-top: 20px;
+}
+
+
+
+/* Work */
+#projectButton {
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+    justify-content: center;
+    background-color: #D1D3AB;
+    border-radius: 10px;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    transition: 0.3s;
+    opacity: 0.9;
+}
+
+#projectButton:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    opacity: 1;
+    background-color: #B1BA8F;
+}
+
+.projectButtonImg {
+    width: max-content;
+    height: fit-content;
+    object-fit: cover;
+    object-position: center;
+}
+
+#noPadding {
+    padding: 0%;
+}
+
+#test {
+    color: #000000;
+}
