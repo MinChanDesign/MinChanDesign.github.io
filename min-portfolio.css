@@ -43,8 +43,22 @@
     color: #5E656C;
 }
 
+
+
+/* .carousel-caption {
+    background-color: #000000;
+    opacity: 0.5;
+} */
+
 .carouselText {
     color: #FFFFFF ;
+    /* text-shadow: 2px 2px 4px #000000;
+    text-shadow: -1px 0 #6c595b, 0 1px #6c595b, 1px 0 #6c595b, 0 -1px #6c595b; */
+    background-color: #6C595B;
+    opacity: 0.8;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 #rowAbout {
