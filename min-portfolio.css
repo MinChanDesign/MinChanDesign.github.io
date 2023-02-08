@@ -43,6 +43,10 @@
     color: #5E656C;
 }
 
+.carouselText {
+    color: #FFFFFF ;
+}
+
 #rowAbout {
     padding-top: 40px;
     display: flex;
