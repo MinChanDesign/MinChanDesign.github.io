@@ -228,6 +228,21 @@
     color: #000000;
 }
 
+.blockPadding {
+    padding-top: 4%;
+    padding-bottom: 5%;
+}
+
+.whiteBackground {
+    background-color: #ffffff;
+}
+
+.full-bleed {
+    box-shadow: 0 0 0 100vmax #ffffff;
+    clip-path: inset(0 -100vmax);
+}
+
+
 
 
 /* Contact */
