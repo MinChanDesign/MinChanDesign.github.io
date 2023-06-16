@@ -228,9 +228,12 @@
     color: #000000;
 }
 
+
+/* For all projects */
+
 .blockPadding {
-    padding-top: 4%;
-    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-bottom: 6%;
 }
 
 .whiteBackground {
@@ -241,6 +244,7 @@
     box-shadow: 0 0 0 100vmax #ffffff;
     clip-path: inset(0 -100vmax);
 }
+
 
 
 
