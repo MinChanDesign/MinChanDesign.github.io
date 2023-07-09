@@ -252,6 +252,10 @@
     padding-bottom: 16px;
 }
 
+.topPadding {
+    padding-top: 7%;
+}
+
 
 /* Go to top button */
 #gototopBtn {
