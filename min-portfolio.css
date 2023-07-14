@@ -257,6 +257,54 @@
 }
 
 
+/* all projects - you may also like */
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 33.33333%;
+  }
+
+  .gallery {
+    border-radius: 8px;
+    background-color: #D1D3AB;
+    opacity: 0.9;
+  }
+
+  div.gallery {
+    border: 1px solid #ccc;
+  }
+
+  div.gallery:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    opacity: 1;
+    background-color: #B1BA8F;
+  }
+  
+  div.gallery img {
+    border-radius: 8px 8px 0px 0px;
+    width: 100%;
+    height: auto;
+  }
+
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+
+
 /* Go to top button */
 #gototopBtn {
     display: none;
