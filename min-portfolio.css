@@ -306,7 +306,7 @@
 
 
 /* Before 2020 - Gallery */
-.gallery {
+.ImgGallery {
     display: -ms-flexbox; /* IE10 */
     display: flex;
     -ms-flex-wrap: wrap; /* IE10 */
