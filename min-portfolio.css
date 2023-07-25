@@ -12,9 +12,9 @@
 
 .navbar {
     background-color: #EDD279 !important;
-    /* overflow: hidden;
     position: fixed;
-    top: 0; */
+    /* overflow: hidden; */
+    /* top: 0; */
 }
 
 .activeTab {
@@ -38,7 +38,8 @@
 }
 
 .headerHome {
-    padding-bottom: 30px;
+    padding-top: 10%;
+    padding-bottom: 5%;
 }
 
 #funFact {
