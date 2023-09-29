@@ -258,6 +258,13 @@
 }
 
 
+.leftrightPadding {
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+
+
 /* all projects - you may also like */
 .responsive {
     padding: 0 6px;
