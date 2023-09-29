@@ -13,8 +13,8 @@
 .navbar {
     background-color: #EDD279 !important;
     position: fixed;
-    /* overflow: hidden; */
-    /* top: 0; */
+    overflow: hidden;
+    top: 0;
 }
 
 .activeTab {
