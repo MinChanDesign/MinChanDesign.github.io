@@ -291,15 +291,12 @@
   }
 
   .gallery {
-    border-radius: 8px;
+    /* border-radius: 8px; */
     background-color: #ffffff;
     opacity: 0.9;
     box-shadow: 0 0 11px rgba(33,33,33,.2);
   }
 
-  div.gallery {
-    /* border: 1px solid #ffffff; */
-  }
 
   div.gallery:hover {
     box-shadow: 0 0 11px rgba(33,33,33,.2);
@@ -308,7 +305,7 @@
   }
   
   div.gallery img {
-    border-radius: 8px 8px 0px 0px;
+    /* border-radius: 8px 8px 0px 0px; */
     width: 100%;
     height: auto;
   }
