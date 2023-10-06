@@ -64,44 +64,82 @@
 
     <div class="container headerHome">
       <div class="text-center fontJosefinSans">
-        <h1>Welcome to Min’s website</h1>
-        <h4 id="funFact">Fun fact: this site is completely programmed by myself ;)</h4>
+        <h1> Welcome to Min's website </h1>
+        <!-- <h3 id="funFact"> this site is completely programmed by myself ;) </h3> -->
+        <h4 id="funFact">This site is programmed by myself ;)</h4>
       </div>
     </div>
     
 
 
 
-    <!-- About & Works -->
-    <div class="container">
-      <div class="row" id="rowAbout">
+
+    <!-- About & Contact -->
+    <div class="container ">
+      <div class="row blockPadding whiteBackground full-bleed" id="rowAbout">
         <div class="col-md-4 col-sm-6 col-xs-12">
-          <img alt="Min Chan" src="resource/minchan_front.jpg" class="img-responsive center-block">
-        </div>
-        <div class="col-md-8 col-sm-6 col-xs-12">
-          <div class="text-center" id="rowAboutText">
-            <h3 class="fontJosefinSans">Hello! This is Min Chan</h3>
-            <h5 class="fontJosefinSans">I am a professional UX & UI designer based in the Netherlands.</h5>
-            <a class="btn bnt-customized btn-lg fontJosefinSans " href="about.html" role="button" id="btnAbout"> About Min </a>
-          </div>
-        </div>
-      </div>
-      <div class="row" id="rowWork">
-        <div class="col-md-4 col-md-push-8 col-sm-6 col-xs-12" >
           <img alt="Min Chan" src="resource/min-logo-with-name.png" class="img-responsive img-circle center-block">
         </div>
-        <div class="col-md-8 col-md-pull-4 col-sm-6 col-xs-12">
-          <div class="text-center">
-            <h3 class="fontJosefinSans">Check out my Portfolio here</h3>
-            <h5 class="fontJosefinSans">You can view my works in the Portfolio page.</h5>
-            <a class="btn bnt-customized btn-lg fontJosefinSans " href="work.html" role="button" id="btnAbout"> Min's Portfolio </a>
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <div class=" fontJosefinSans" id="rowAboutText">
+            <h3 class="buttonPadding"> Hi there, Nice to meet you </h3>
+            <h5 class="buttonPadding"> Design is to seek the optimized interaction between users and the product and bring out meaningful values to both users and stakeholders.</h5>
+            <a class="btn bnt-customized btn-lg fontJosefinSans " href="about.html" role="button" id="btnAbout"> About Min </a> <a class="btn bnt-secondary btn-lg fontJosefinSans " href="contact.html" role="button" id="btnAbout"> Get in touch</a>
           </div>
         </div>
       </div>
     </div>
 
+
+
+    <!-- Works -->
+    <div class="container blockPadding">
+      <h2 class="fontJosefinSans text-center leftrightPadding"> Check out my works</h2>
+      <div class="row">
+        <a href="tjipDesignSystem.html" id="projectButton">
+            <div class="col-sm-7 col-sm-push-5" id="noPadding">
+                <img alt="design system" src="resource/works/Design System tjip/design system.png" class="img-responsive center-block  projectButtonImg">
+            </div>
+            <div class="col-sm-5 col-sm-pull-7 text-center" id="blackText">
+                <h3>Design System - TJIP</h3>
+                <p>2022-2023</p>
+            </div>
+        </a>
+      </div>
+    </div>
+
+
+    <!-- go to top button -->
+    <div class="text-center">
+      <button onclick="topFunction()" id="gototopBtn" title="Go to top">Back to Top</button>
+    </div>
+
+    <script>
+      // Get the button
+      let mybutton = document.getElementById("gototopBtn");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
+      
+
+
     <!-- Contact -->
-    <div class="container-fluid">
+    <!-- <div class="container-fluid">
       <div class="row" id="contact">
         <div class="col-md-12 text-center">
           <div>
@@ -109,13 +147,13 @@
             <br><br>
             <div id="myEmail"><img class="email" src="resource/envelope-wit.png" alt="envelop icon" height="30px"> <h4 class="email fontJosefinSans">minchan850058@gmail.com</h4></div>
             <br><br>
-            <!-- <h5 class="fontJosefinSans">Please feel free to contact me.</h5> -->
+            
             <h5 class="fontJosefinSans">You can also find <a class="linkedinHome" href="http://www.linkedin.com/in/minchan1997" target="_blank"> <u>my LinkedIn here.</u></a></h5>
             <h5 class="fontJosefinSans">I wish you a wonderful day.</h5>
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="container">
       <div class="footer">

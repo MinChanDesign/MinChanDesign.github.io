@@ -37,8 +37,22 @@
     border-radius: 40px;
 }
 
+.bnt-secondary {
+    color: #6c595b;
+    /* background-color: #6c595b; */
+    border-radius: 40px !important;
+    border-color: #6c595b !important;
+    border-width: 1.5px !important;
+}
+
+.bnt-secondary:hover {
+    color: #FFFFFF !important;
+    background-color: #B1816B ;
+    border-radius: 40px;
+}
+
 .headerHome {
-    padding-top: 10%;
+    padding-top: 12%;
     padding-bottom: 5%;
 }
 
@@ -65,23 +79,23 @@
 }
 
 #rowAbout {
-    padding-top: 40px;
     display: flex;
     flex-wrap:wrap;
     align-items: center;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 12%;
+    margin-right: 8%;
 }
 
 #rowWork {
     display: flex;
     flex-wrap:wrap;
     align-items: center;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 8%;
+    margin-right: 12%;
     padding-top: 40px;
-    padding-bottom: 40px;
 }
+
+
 
 #rowAboutText {
     padding-left: 10px;
@@ -273,6 +287,9 @@
     padding-top: 7%;
 }
 
+.buttonPadding {
+    padding-bottom: 5%;
+}
 
 .leftrightPadding {
     padding-left: 12%;
