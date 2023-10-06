@@ -205,19 +205,19 @@
     align-items: center;
     flex-wrap:wrap;
     justify-content: center;
-    background-color: #D1D3AB;
-    border-radius: 8px;
+    background-color: #ffffff;
+    /* border-radius: 8px; */
     margin-top: 3%;
     margin-left: 5%;
     margin-right: 5%;
     transition: 0.3s;
     opacity: 0.9;
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
 
 #projectButton:hover {
-    box-shadow: 0 0 11px rgba(33,33,33,.2);
     opacity: 1;
-    background-color: #B1BA8F;
+    background-color: #E3E5BA;
 }
 
 .projectButtonImg {
@@ -231,8 +231,10 @@
     padding: 0%;
 }
 
-#test {
+#blackText {
     color: #000000;
+    padding-top: 3%;
+    padding-bottom: 5%;
 }
 
 
@@ -248,7 +250,7 @@
 }
 
 .greenBackground {
-    background-color: #D1D3AB;
+    background-color: #E3E5BA;
 }
 
 .full-bleed {
@@ -257,7 +259,7 @@
 }
 
 .full-bleedGreen {
-    box-shadow: 0 0 0 100vmax #D1D3AB;
+    box-shadow: 0 0 0 100vmax #E3E5BA;
     clip-path: inset(0 -100vmax);
 }
 
@@ -290,18 +292,19 @@
 
   .gallery {
     border-radius: 8px;
-    background-color: #D1D3AB;
+    background-color: #ffffff;
     opacity: 0.9;
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
   }
 
   div.gallery {
-    border: 1px solid #ccc;
+    /* border: 1px solid #ffffff; */
   }
 
   div.gallery:hover {
     box-shadow: 0 0 11px rgba(33,33,33,.2);
     opacity: 1;
-    background-color: #B1BA8F;
+    background-color: #E3E5BA;
   }
   
   div.gallery img {
