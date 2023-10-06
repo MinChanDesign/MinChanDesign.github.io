@@ -247,8 +247,17 @@
     background-color: #ffffff;
 }
 
+.greenBackground {
+    background-color: #D1D3AB;
+}
+
 .full-bleed {
     box-shadow: 0 0 0 100vmax #ffffff;
+    clip-path: inset(0 -100vmax);
+}
+
+.full-bleedGreen {
+    box-shadow: 0 0 0 100vmax #D1D3AB;
     clip-path: inset(0 -100vmax);
 }
 
