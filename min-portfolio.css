@@ -303,6 +303,15 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.cbs {
+    background-color: #ffffff;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+
 
 /* all projects - you may also like */
 .responsive {
