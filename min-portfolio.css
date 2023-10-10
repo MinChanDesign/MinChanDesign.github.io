@@ -82,16 +82,13 @@
     display: flex;
     flex-wrap:wrap;
     align-items: center;
-    margin-left: 12%;
-    margin-right: 8%;
+    padding-top: 40px;
 }
 
 #rowWork {
     display: flex;
     flex-wrap:wrap;
     align-items: center;
-    margin-left: 8%;
-    margin-right: 12%;
     padding-top: 40px;
 }
 
