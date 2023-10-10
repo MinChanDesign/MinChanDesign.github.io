@@ -290,6 +290,10 @@
     padding-top: 7%;
 }
 
+.smallTopPadding {
+    padding-top: 3%;
+}
+
 .buttonPadding {
     padding-bottom: 5%;
 }
@@ -305,11 +309,17 @@
 
 .cbs {
     background-color: #ffffff;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 8%;
-    padding-bottom: 8%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 4%;
+    padding-bottom: 4%;
 }
+
+.blueText {
+    color: rgb(3, 6, 148);
+}
+
+
 
 
 
