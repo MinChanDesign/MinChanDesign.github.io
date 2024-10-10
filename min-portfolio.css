@@ -11,7 +11,7 @@
 }
 
 .navbar {
-    background-color: #FFFFFF !important;
+    background-color: #FCFCF2 !important;
     /* background-color: #EDD279 !important; */
     position: fixed;
     overflow: hidden;
@@ -48,8 +48,8 @@
 }
 
 .bnt-secondary:hover {
-    color: #FFFFFF !important;
-    background-color: #867269 ;
+    /* color: #FFFFFF !important; */
+    background-color: #E3E5BA ;
     border-radius: 40px;
 }
 
