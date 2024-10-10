@@ -11,7 +11,8 @@
 }
 
 .navbar {
-    background-color: #EDD279 !important;
+    background-color: #FFFFFF !important;
+    /* background-color: #EDD279 !important; */
     position: fixed;
     overflow: hidden;
     top: 0;
@@ -33,7 +34,8 @@
 
 .bnt-customized:hover {
     color: #FFFFFF !important;
-    background-color: #B1816B ;
+    background-color: #867269;
+    /* background-color: #B1816B ; */
     border-radius: 40px;
 }
 
@@ -47,7 +49,7 @@
 
 .bnt-secondary:hover {
     color: #FFFFFF !important;
-    background-color: #B1816B ;
+    background-color: #867269 ;
     border-radius: 40px;
 }
 
@@ -431,7 +433,7 @@
   }
   
   #gototopBtn:hover {
-    background-color: #B1816B;
+    background-color: #867269;
   }
 
 
